@@ -2,11 +2,12 @@ import React from 'react';
 
 interface Props {
   variation?: 'no-text' | 'with-text';
+  className?: string;
   otherProps?: JSX.IntrinsicElements['svg'];
 }
 
 export default function Logo(props: Props) {
-  const { variation = 'with-text', otherProps } = props;
+  const { variation = 'with-text', otherProps, className } = props;
   return variation === 'with-text' ? (
     <svg
       width='93'
@@ -14,6 +15,7 @@ export default function Logo(props: Props) {
       viewBox='0 0 93 41'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
+      className={className}
       {...otherProps}
     >
       <rect width='41' height='41' rx='5' fill='#34333E' />
