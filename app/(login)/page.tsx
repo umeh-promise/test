@@ -43,8 +43,11 @@ export default function Home() {
         <Logo className='block lg:hidden self-center mb-[3rem]' />
 
         <div className='flex flex-col gap-[5px] mb-[3.8rem]'>
-          <h3 className='text-grey-500 text-center text-2xl font-semibold leading-4 tracking-5'>
+          <h3 className='hidden lg:block text-grey-500 text-center text-2xl font-semibold leading-4 tracking-5'>
             Provide your phone number
+          </h3>
+          <h3 className='block lg:hidden text-grey-500 text-lg font-semibold leading-4 tracking-5 text-center'>
+            Let&apos;s get Started
           </h3>
           <p className='text-grey-400 text-center text-sm font-light leading-2'>
             Kindly use an active WhatsApp number, and we&apos;ll send a
