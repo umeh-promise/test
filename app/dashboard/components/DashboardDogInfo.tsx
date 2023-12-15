@@ -109,9 +109,11 @@ export default function DashboardDogInfo() {
           </ul>
         </div>
 
-        <Button variation='primary'>Submit</Button>
+        <Button variation='primary' className='block lg:hidden'>
+          Submit
+        </Button>
 
-        <button className='text-center text-black text-[1.19rem] font-semibold leading-[1.79rem] underline'>
+        <button className='hidden lg:block text-center text-black text-[1.19rem] font-semibold leading-[1.79rem] underline'>
           Save & Publish Later
         </button>
       </div>
