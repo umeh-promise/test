@@ -113,7 +113,7 @@ export default function DashboardDogInfo() {
           Submit
         </Button>
 
-        <button className='hidden lg:block text-center text-black text-[1.19rem] font-semibold leading-[1.79rem] underline'>
+        <button className='block lg:hidden text-center text-black text-[1.19rem] font-semibold leading-[1.79rem] underline'>
           Save & Publish Later
         </button>
       </div>
